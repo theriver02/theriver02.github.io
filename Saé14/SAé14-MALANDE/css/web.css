@@ -1,0 +1,356 @@
+/*------------------------------------------------------------------------------
+WEB : page design
+------------------------------------------------------------------------------*/
+
+header h1 {
+	display: inline-block;
+	font-size: 25px;
+	text-decoration: none;
+	font-weight: 200;
+}
+
+header {
+	padding-left: 300px;
+}
+
+
+nav {
+	display: inline-block;
+	font-weight: 300;
+	line-height: 25px;
+	text-align: right;
+	width: 70%;
+}
+
+
+
+
+nav li {
+	display: inline-block;
+	margin: 0px 0px 0px 20px;
+
+}
+
+section {
+	display: block;
+	/* background-color: red; */
+
+	margin: auto auto;
+	padding-left: 500px
+
+}
+
+nav a {
+	text-align: left;
+}
+
+p {
+	text-align: justify;
+}
+
+nav a {
+	font-size: 14px;
+	font-weight: bold;
+	text-decoration: none;
+	color: black;
+
+}
+img {
+	/* width: 30%; */
+}
+
+.firstArt {
+	display: inline-block;
+	width: 25%;
+	padding: 20px;
+}
+
+section div {
+	display: inline-block;
+	/* background-color: yellow; */
+	width: 28%;
+	padding-left: 50px;
+}
+
+.price {
+	background-color: orange;
+	color: white;
+	border-radius: 30px;
+	font-size: 18px;
+	padding: 15px 40px;
+	display: inline-block;
+	text-decoration: none;
+	box-shadow: 0 15px 40px rgba(249, 167, 68, 0.5);
+
+}
+
+span {
+	color: #6c757d;
+}
+
+section div h1 {
+	font-size: 60px;
+	padding-top: 20px;
+
+
+}
+section div p {
+	font-size: 18px;
+	line-height: 25px;
+	color: #6c757d;
+}
+
+section article h2 {
+	text-align: center;
+	padding-top: 150px;
+	padding-right: 40%;
+	padding-bottom: 20px;
+	text-transform: capitalize;
+	font-weight: 700;
+	font-size: 40px;
+	line-height: 40px;
+	margin: auto auto;
+}
+
+
+.SecondArt {
+	/* background-color: red; */
+	position: relative;
+	/* width: 10%; */
+	font-size: 15px;
+	/* width: 150px; */
+	width: 300px;
+	padding: 0px;
+	padding-right: 50px;
+
+}
+
+.SecondArt2 {
+	/* background-color: yellow; */
+	position: relative;
+	font-size: 15px;
+	width: 300px;
+	padding: 0px;
+	padding-right: 50px;
+
+}
+
+.noPar {
+	font-size: 12px;
+	padding-top: 0px;
+}
+
+section article ul {
+	text-align: left;
+
+}
+
+.secondImg {
+	width: 35%;
+}
+
+section article div {
+
+}
+
+aside img {
+	/* padding: 100px 10px 100px 100px; */
+	display: inline-block;
+
+
+}
+
+aside h2 {
+	display: inline-block;
+}
+
+aside {
+	background-color: orange;
+	padding: 100px;
+	width:
+}
+
+.reference img {
+	width : 30%;
+	display: inline-block;
+	margin : auto auto;
+}
+
+
+.battery img {
+	width: 50%;
+	display: inline-block;
+
+}
+
+footer {
+	text-align: center;
+	background: #f4f4f4;
+	padding: 50px 0px;
+	font-size: 14px;
+}
+
+footer ul li {
+	font-weight: 300;
+	line-height: 25px;
+	font-family: "Josefin Sans", sans-serif;
+	padding: 3px 50px;
+	border-style: none solid none solid;
+	border-color: #AAAAAA;
+	border-width: 1px;
+	font-weight: lighter;
+	/* text-align: center; */ */
+
+}
+
+footer a {
+	text-decoration: none;
+	color: #3b4045;
+}
+
+footer li {
+	display: inline-block;
+
+}
+
+footer p {
+	text-align: center;
+	padding: 6px 50px;
+}
+
+section div.reference {
+	display: block;
+	width: 100%;
+}
+
+input {
+	height: 50px;
+	border-radius: 40px;
+	border: none;
+	padding-left: 15px;
+	box-shadow: none;
+	display: table-cell;
+	width: 100%;
+	padding: .375rem .75rem;
+	padding-left: 0.75rem;
+	font-size: 1rem;
+	line-height: 1.5;
+	color: #495057;
+	background-color: #fff;
+	background-clip: padding-box;
+	text-transform: capitalize;
+
+}
+
+section div.mail {
+	text-align: center;
+	padding-top: 50px;
+	/* background-color: red; */
+	padding-left: 20%;
+}
+
+section div.Section {
+	text-align: center;
+	padding-top: 60px;
+	padding-left: 20%;
+
+	/* background-color: red;
+	width: 100%;
+	margin: auto auto; */
+}
+
+.Header {
+color: #3c3c3c;
+padding-bottom: 15px;
+text-transform: capitalize;
+font-weight: 700;
+font-size: 40px;
+line-height: 40px;
+padding-top: 30px;
+}
+
+.titre {
+	text-align: center;
+	padding-top: 50px;
+}
+
+.boss {
+	font-weight: bolder;
+}
+
+
+
+
+
+
+/*==============================
+Layout
+==============================*/
+
+/* Body & Wrapper */
+/* .wrapper {
+	min-height: 100vh;
+	max-width: 1200px;
+	margin: 0 auto 0 auto;
+	padding: 1px;
+	} */
+
+
+
+
+
+	/*==============================
+	Style
+	==============================*/
+
+	/* Set font */
+	* {
+		font-family: 'Ubuntu', 'Arial', 'Helvetica', 'Palatino', sans-serif;
+	}
+
+	/* Body & Wrapper */
+	body {
+		background-color: #FFFFFF;
+	}
+	/* .wrapper {
+		background-color: #FFFFFF;
+		padding: 0 10px;
+		} */
+
+
+
+
+
+		/*==============================
+		Classes
+		==============================*/
+
+
+
+
+
+		/*==============================
+		Responsive design
+		==============================*/
+
+		/* Media query : mobile */
+		@media (max-width: 600px) {
+
+
+		}
+
+
+
+		/* Media query : tablet */
+		@media (min-width: 600px) and (max-width: 1200px) {
+
+
+		}
+
+
+
+		/* Media query : laptop */
+		@media (min-width: 1200px) {
+
+
+		}
